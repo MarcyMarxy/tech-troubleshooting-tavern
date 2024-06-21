@@ -50,5 +50,12 @@ ls
 ```
 ## Markdown
 <!-- TODO -->
+https://validator.w3.org/#validate_by_input<br>
 Emoji Unicode
 - [emojipedia](https://emojipedia.org/guide-dog#technical)
+
+## I LIKE
+### Black
+code formatter for Python<br>
+### Sphinx
+create manuals<br>
