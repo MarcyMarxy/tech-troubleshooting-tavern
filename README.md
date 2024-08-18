@@ -54,6 +54,17 @@ https://validator.w3.org/#validate_by_input<br>
 Emoji Unicode
 - [emojipedia](https://emojipedia.org/guide-dog#technical)
 
+## LaTex
+TinyTex + LaTex Workshop
+
+> ```
+> parskip.sty not found
+> ```
+```
+pdflatex --version
+tlmgr install parskip
+tlmgr install titlesec
+```
 ## I LIKE
 ### Black
 code formatter for Python<br>
