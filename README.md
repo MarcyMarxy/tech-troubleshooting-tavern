@@ -22,6 +22,7 @@ git status
 git init
 git add .
 git commit -m "write some messages"
+git push
 ```
 > ```
 > Author identity unknown
