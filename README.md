@@ -70,4 +70,41 @@ tlmgr install titlesec
 ### Black
 code formatter for Python<br>
 ### Sphinx
-create manuals<br>
+Generate documentation from comments and docstrings using Sphinx. <br>
+In terminal, type:
+```
+sphinx-quickstart
+```
+Enter basic project information.
+In `conf.py`, add:
+```
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+extensions = ['sphinx.ext.autodoc']
+
+autodoc_member_order = 'bysource'
+
+html_theme = 'sphinx_rtd_theme'
+```
+In `index.rst`, add:
+```
+.. automodule:: <module name>
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :special-members: __init__
+```
+In terminal, type:
+```
+sphinx-apidoc -o docs . -f
+```
+```
+make html
+```
+In VS Code, use "Live Server" extension to preview.
+
+
