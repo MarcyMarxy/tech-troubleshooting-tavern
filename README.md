@@ -6,6 +6,10 @@
 - [WSL+VSCode Setup](#wsl-vscode-setup)
 - [Git+GitHub](#git-github)
 - [Markdown](#markdown)
+- [LaTeX](#latex)
+- [I LIKE](#i-like)
+  - [Black](#black)
+  - [Sphinx](#sphinx)
 
 ## WSL+VSCode Setup
 <!-- TODO -->
@@ -40,10 +44,10 @@ git push -u origin main
 *References:*
 - [CS50 Seminar: Collaboration and Version Control with Git](https://youtu.be/S-gBbnBDUhA)<br>
 
-### 上错号了
+### Wrong account
 <!-- TODO -->
 
-### 整个删除
+### Delete all
 <!-- TODO -->
 ```
 git remote rm origin
