@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/59359677-42d1-43b4-8e8b-e9b78493b734)# Tech Troubleshooting Tavern
+# Tech Troubleshooting Tavern
 
 &#x1F916; &#x1F37B; &#x1F469;&#x200D;&#x1F4BB;<br>
 
