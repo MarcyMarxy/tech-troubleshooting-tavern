@@ -1,10 +1,11 @@
-# Tech Troubleshooting Tavern
+![image](https://github.com/user-attachments/assets/59359677-42d1-43b4-8e8b-e9b78493b734)# Tech Troubleshooting Tavern
 
 &#x1F916; &#x1F37B; &#x1F469;&#x200D;&#x1F4BB;<br>
 
 ## Table of Contents
 - [WSL+VSCode Setup](#wsl-vscode-setup)
 - [Git+GitHub](#git-github)
+- [Debug](#debug)
 - [Markdown](#markdown)
 - [LaTeX](#latex)
 - [I LIKE](#i-like)
@@ -13,6 +14,7 @@
 
 ## WSL+VSCode Setup
 <!-- TODO -->
+For Mac: VSCode+zsh(package install)
 
 ## Git+GitHub
 
@@ -53,6 +55,32 @@ git push -u origin main
 git remote rm origin
 ls 
 ```
+
+## Debug
+Python debugger pdb
+
+```
+import pdb
+```
+
+Set breakpoint
+```
+pdb.set_trace()
+```
+
+Inspect variables
+```
+p state
+state
+n
+c
+```
+Quit
+```
+q
+quit
+```
+
 ## Markdown
 <!-- TODO -->
 https://validator.w3.org/#validate_by_input<br>
