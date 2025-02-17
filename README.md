@@ -3,14 +3,15 @@
 &#x1F916; &#x1F37B; &#x1F469;&#x200D;&#x1F4BB;<br>
 
 ## Table of Contents
-- [WSL+VSCode Setup](#wsl-vscode-setup)
-- [Git+GitHub](#git-github)
+- [WSL+VSCode Setup](#wsl+vscode-setup)
+- [Git+GitHub](#git+github)
 - [Debug](#debug)
 - [Markdown](#markdown)
 - [LaTeX](#latex)
 - [I LIKE](#i-like)
   - [Black](#black)
   - [Sphinx](#sphinx)
+  - [Web safe colors](#web-safe-colors)
 
 ## WSL+VSCode Setup
 <!-- TODO -->
@@ -139,4 +140,6 @@ make html
 ```
 In VS Code, use "Live Server" extension to preview.
 
+### Web safe colors
+https://www.colorhexa.com/web-safe-colors
 
