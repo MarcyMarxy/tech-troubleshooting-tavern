@@ -3,8 +3,8 @@
 &#x1F916; &#x1F37B; &#x1F469;&#x200D;&#x1F4BB;<br>
 
 ## Table of Contents
-- [WSL+VSCode Setup](#wsl+vscode-setup)
-- [Git+GitHub](#git+github)
+- [WSL VSCode Setup](#wsl-vscode-setup)
+- [Git GitHub](#git-github)
 - [Debug](#debug)
 - [Markdown](#markdown)
 - [LaTeX](#latex)
@@ -13,11 +13,11 @@
   - [Sphinx](#sphinx)
   - [Web safe colors](#web-safe-colors)
 
-## WSL+VSCode Setup
+## WSL VSCode Setup
 <!-- TODO -->
 For Mac: VSCode+zsh(package install)
 
-## Git+GitHub
+## Git GitHub
 
 ### wouldn't hurt
 ```
