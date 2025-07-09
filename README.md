@@ -11,8 +11,10 @@
 - [I LIKE](#i-like)
   - [Black](#black)
   - [Sphinx](#sphinx)
+- [Useful Links](#useful-links)
   - [Web safe colors](#web-safe-colors)
-
+  - [HTTP response status codes](#http-response-status-codes)
+  - 
 ## WSL VSCode Setup
 <!-- TODO -->
 For Mac: VSCode+zsh(package install)
@@ -140,6 +142,11 @@ make html
 ```
 In VS Code, use "Live Server" extension to preview.
 
+## Useful Links
+
 ### Web safe colors
 https://www.colorhexa.com/web-safe-colors
+
+### HTTP response status codes
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 
