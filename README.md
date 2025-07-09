@@ -14,7 +14,7 @@
 - [Useful Links](#useful-links)
   - [Web safe colors](#web-safe-colors)
   - [HTTP response status codes](#http-response-status-codes)
-  - 
+
 ## WSL VSCode Setup
 <!-- TODO -->
 For Mac: VSCode+zsh(package install)
