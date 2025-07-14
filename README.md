@@ -12,8 +12,7 @@
   - [Black](#black)
   - [Sphinx](#sphinx)
 - [Useful Links](#useful-links)
-  - [Web safe colors](#web-safe-colors)
-  - [HTTP response status codes](#http-response-status-codes)
+
 
 ## WSL VSCode Setup
 <!-- TODO -->
@@ -150,3 +149,8 @@ https://www.colorhexa.com/web-safe-colors
 ### HTTP response status codes
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 
+### True Random Number Generator
+https://www.random.org/
+
+### Example Domains
+https://www.iana.org/help/example-domains
