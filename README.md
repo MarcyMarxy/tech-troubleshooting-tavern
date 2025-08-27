@@ -7,6 +7,7 @@
 - [WSL VSCode Setup](#wsl-vscode-setup)
 - [Git GitHub](#git-github)
 - [Debug](#debug)
+- [Docstring Formats](#docstring-formats)
 - [Markdown](#markdown)
 - [LaTeX](#latex)
 - [I LIKE](#i-like)
@@ -89,6 +90,9 @@ Quit
 q
 quit
 ```
+## Docstring Formats
+- [Google-style](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings)
+- [Numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)
 
 ## Markdown
 <!-- TODO -->
