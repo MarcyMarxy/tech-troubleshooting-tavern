@@ -3,6 +3,7 @@
 &#x1F916; &#x1F37B; &#x1F469;&#x200D;&#x1F4BB;<br>
 
 ## Table of Contents
+- [Principles](#principles)
 - [WSL VSCode Setup](#wsl-vscode-setup)
 - [Git GitHub](#git-github)
 - [Debug](#debug)
@@ -12,6 +13,11 @@
   - [Black](#black)
   - [Sphinx](#sphinx)
 - [Useful Links](#useful-links)
+
+
+## Principles
+- DRY (Don't Repeat Yourself)
+- Do One Thing
 
 
 ## WSL VSCode Setup
@@ -57,6 +63,7 @@ git push -u origin main
 git remote rm origin
 ls 
 ```
+
 
 ## Debug
 Python debugger pdb
