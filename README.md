@@ -33,7 +33,7 @@ git --version
 git status
 ```
 ### routine
-```
+```shell
 git init
 git add .
 git commit -m "write some messages"
@@ -43,10 +43,9 @@ git push
 > Author identity unknown
 > *** Please tell me who you are.
 > ```
-```
+```shell
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-
 git remote add origin https://github.com/？？？.git
 git branch -M main
 git push -u origin main
