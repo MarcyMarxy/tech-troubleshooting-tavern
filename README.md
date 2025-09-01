@@ -1,6 +1,7 @@
 # Tech Troubleshooting Tavern
 
-&#x1F916; &#x1F37B; &#x1F469;&#x200D;&#x1F4BB;<br>
+&#x1F916; &#x1F37B; &#x1F469;&#x200D;&#x1F4BB;
+
 
 ## Table of Contents
 - [Principles](#principles)
@@ -17,6 +18,7 @@
 
 
 ## Principles
+- MVP (minimum viable product)
 - DRY (Don't Repeat Yourself)
 - Do One Thing
 
@@ -39,10 +41,14 @@ git add .
 git commit -m "write some messages"
 git push
 ```
+
+
 > ```
 > Author identity unknown
 > *** Please tell me who you are.
 > ```
+
+
 ```shell
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
@@ -53,6 +59,7 @@ git push -u origin main
 
 *References:*
 - [CS50 Seminar: Collaboration and Version Control with Git](https://youtu.be/S-gBbnBDUhA)<br>
+
 
 ### Wrong account
 <!-- TODO -->
@@ -72,10 +79,12 @@ Python debugger pdb
 import pdb
 ```
 
+
 Set breakpoint
 ```
 pdb.set_trace()
 ```
+
 
 Inspect variables
 ```
@@ -84,14 +93,19 @@ state
 n
 c
 ```
+
+
 Quit
 ```
 q
 quit
 ```
+
+
 ## Docstring Formats
 - [Google-style](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings)
 - [Numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)
+
 
 ## Markdown
 <!-- TODO -->
@@ -99,28 +113,39 @@ https://validator.w3.org/#validate_by_input<br>
 Emoji Unicode
 - [emojipedia](https://emojipedia.org/guide-dog#technical)
 
+
 ## LaTex
 TinyTex + LaTex Workshop
 
 > ```
 > parskip.sty not found
 > ```
-```
+
+
+```shell
 pdflatex --version
 tlmgr install parskip
 tlmgr install titlesec
 ```
+
+
 ## I LIKE
 ### Black
 code formatter for Python<br>
 ### Sphinx
 Generate documentation from comments and docstrings using Sphinx. <br>
 In terminal, type:
+
+
 ```
 sphinx-quickstart
 ```
+
+
 Enter basic project information.
 In `conf.py`, add:
+
+
 ```
 import os
 import sys
@@ -134,6 +159,8 @@ autodoc_member_order = 'bysource'
 
 html_theme = 'sphinx_rtd_theme'
 ```
+
+
 In `index.rst`, add:
 ```
 .. automodule:: <module name>
@@ -142,6 +169,8 @@ In `index.rst`, add:
    :show-inheritance:
    :special-members: __init__
 ```
+
+
 In terminal, type:
 ```
 sphinx-apidoc -o docs . -f
@@ -149,18 +178,21 @@ sphinx-apidoc -o docs . -f
 ```
 make html
 ```
+
+
 In VS Code, use "Live Server" extension to preview.
+
 
 ## Useful Links
 
 ### Web safe colors
-https://www.colorhexa.com/web-safe-colors
+- [https://www.colorhexa.com/web-safe-colors]
 
 ### HTTP response status codes
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
+- [https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status]
 
 ### True Random Number Generator
-https://www.random.org/
+- [https://www.random.org/]
 
 ### Example Domains
-https://www.iana.org/help/example-domains
+- [https://www.iana.org/help/example-domains]
