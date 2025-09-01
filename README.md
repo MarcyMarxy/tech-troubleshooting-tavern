@@ -186,13 +186,14 @@ In VS Code, use "Live Server" extension to preview.
 ## Useful Links
 
 ### Web safe colors
--[https://www.colorhexa.com/web-safe-colors]
+https://www.colorhexa.com/web-safe-colors
 
 ### HTTP response status codes
--[https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status]
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 
 ### True Random Number Generator
--[https://www.random.org/]
+https://www.random.org/
 
 ### Example Domains
--[https://www.iana.org/help/example-domains]
+https://www.iana.org/help/example-domains
+
