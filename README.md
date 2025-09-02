@@ -1,7 +1,7 @@
 # Tech Troubleshooting Tavern
 
 &#x1F916; &#x1F37B; &#x1F469;&#x200D;&#x1F4BB;
-
+GitHub Pages site: <https://marcymarxy.github.io/tech-troubleshooting-tavern/>
 
 ## Table of Contents
 - [Principles](#principles)
@@ -133,11 +133,11 @@ tlmgr install titlesec
 
 ## I LIKE
 ### Black
-Python code formatter\
+Python code formatter.  
 
 
 ### Sphinx
-Generate documentation from comments and docstrings using Sphinx.\
+Generate documentation from comments and docstrings using Sphinx.  
 In terminal, type:
 
 
