@@ -29,12 +29,12 @@ For Mac: VSCode+zsh(package install)
 
 ## Git GitHub
 
-### wouldn't hurt
+### Wouldn't hurt
 ```
 git --version
 git status
 ```
-### routine
+### Routine
 ```shell
 git init
 git add .
@@ -109,9 +109,11 @@ quit
 
 ## Markdown
 <!-- TODO -->
-https://validator.w3.org/#validate_by_input<br>
-Emoji Unicode
-- [emojipedia](https://emojipedia.org/guide-dog#technical)
+<https://validator.w3.org/#validate_by_input>
+
+
+Emoji Unicode\
+[emojipedia](https://emojipedia.org/guide-dog#technical)
 
 
 ## LaTex
@@ -131,9 +133,11 @@ tlmgr install titlesec
 
 ## I LIKE
 ### Black
-code formatter for Python<br>
+Python code formatter\
+
+
 ### Sphinx
-Generate documentation from comments and docstrings using Sphinx. <br>
+Generate documentation from comments and docstrings using Sphinx.\
 In terminal, type:
 
 
@@ -186,14 +190,14 @@ In VS Code, use "Live Server" extension to preview.
 ## Useful Links
 
 ### Web safe colors
-https://www.colorhexa.com/web-safe-colors
+<https://www.colorhexa.com/web-safe-colors>
 
 ### HTTP response status codes
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
+<https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status>
 
 ### True Random Number Generator
-https://www.random.org/
+<https://www.random.org/>
 
 ### Example Domains
-https://www.iana.org/help/example-domains
+<https://www.iana.org/help/example-domains>
 
