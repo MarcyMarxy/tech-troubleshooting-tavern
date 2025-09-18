@@ -8,6 +8,7 @@ GitHub Pages site: <https://marcymarxy.github.io/tech-troubleshooting-tavern/>
 - [WSL VSCode Setup](#wsl-vscode-setup)
 - [Git GitHub](#git-github)
 - [Debug](#debug)
+- [Testing](#testing)
 - [Docstring Formats](#docstring-formats)
 - [Markdown](#markdown)
 - [LaTeX](#latex)
@@ -100,6 +101,38 @@ Quit
 q
 quit
 ```
+
+## Testing
+### Assertions unittest vs pytest
+
+#### unittest: "Method-Based Assertions"
+
+```python
+self.assertSomething(expected, actual)
+```
+
+**Think:** "I'm telling the test case to assert something"  
+
+#### pytest: "Plain Python Assertions"
+
+```python
+assert condition
+```
+
+**Think:** "I'm writing a normal Python assertion"  
+
+| What you want to test | unittest | pytest |
+|-----------------------|----------|--------|
+| Equality | `self.assertEqual(a, b)` | `assert a == b` |
+| Truthiness | `self.assertTrue(x)` | `assert x` |
+| Falseness | `self.assertFalse(x)` | `assert not x` |
+| Type checking | `self.assertIsInstance(obj, cls)` | `assert isinstance(obj, cls)` |
+| None check | `self.assertIsNone(x)` | `assert x is None` |
+| Not None | `self.assertIsNotNone(x)` | `assert x is not None` |
+| Container membership | `self.assertIn(item, container)` | `assert item in container` |
+| Not in container | `self.assertNotIn(item, container)` | `assert item not in container` |
+| Exception raised | `self.assertRaises(Exc, func, *args)` | `pytest.raises(Exc, func, *args)` |
+| Approximate equality | `self.assertAlmostEqual(a, b)` | `assert abs(a - b) < tolerance` |
 
 
 ## Docstring Formats
