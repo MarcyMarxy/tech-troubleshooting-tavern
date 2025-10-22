@@ -9,6 +9,7 @@ GitHub Pages site: <https://marcymarxy.github.io/tech-troubleshooting-tavern/>
 - [Git GitHub](#git-github)
 - [Debug](#debug)
 - [Testing](#testing)
+- [Cron](#cron)
 - [Docstring Formats](#docstring-formats)
 - [Markdown](#markdown)
 - [LaTeX](#latex)
@@ -133,6 +134,38 @@ assert condition
 | Not in container | `self.assertNotIn(item, container)` | `assert item not in container` |
 | Exception raised | `self.assertRaises(Exc, func, *args)` | `pytest.raises(Exc, func, *args)` |
 | Approximate equality | `self.assertAlmostEqual(a, b)` | `assert abs(a - b) < tolerance` |
+
+
+## Cron
+```bash
+crontab -e        # Edit cron jobs
+crontab -l        # List cron jobs
+```
+
+### Time Format
+```
+* * * * * command_to_run
+│ │ │ │ │
+│ │ │ │ └─ Day of week (0-7) 0=Sunday
+│ │ │ └─── Month (1-12)
+│ │ └───── Day of month (1-31)
+│ └─────── Hour (0-23)
+└───────── Minute (0-59)
+```
+
+```bash
+0 9 * * 1 script.sh         # Every Monday at 9 AM
+```
+
+### Nano Editor
+```
+Ctrl + O    → Save
+Enter      → Confirm filename
+Ctrl + X    → Exit
+```
+
+Test timing: <https://crontab.guru>
+
 
 
 ## Docstring Formats
