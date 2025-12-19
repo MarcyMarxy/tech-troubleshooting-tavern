@@ -10,6 +10,7 @@ GitHub Pages site: <https://marcymarxy.github.io/tech-troubleshooting-tavern/>
 - [Debug](#debug)
 - [Testing](#testing)
 - [Cron](#cron)
+- [NumPy](#numpy)
 - [Docstring Formats](#docstring-formats)
 - [Markdown](#markdown)
 - [LaTeX](#latex)
@@ -167,6 +168,21 @@ Ctrl + X    → Exit
 Test timing: <https://crontab.guru>
 
 
+## NumPy
+### range() vs arange() vs array()
+```
+BUILT-IN PYTHON:          range(5)
+                          ↓
+                    (0, 1, 2, 3, 4) ← ITERATOR (not array!)
+
+NUMPY SEQUENCE:           np.arange(5)
+                          ↓
+                    [0 1 2 3 4] ← NUMPY ARRAY
+
+NUMPY FROM VALUES:        np.array([0, 1, 2, 3, 4])
+                          ↓  
+                    [0 1 2 3 4] ← NUMPY ARRAY (same result!)
+```
 
 ## Docstring Formats
 - [Google-style](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings)
