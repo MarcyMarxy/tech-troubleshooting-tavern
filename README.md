@@ -1,7 +1,10 @@
 # Tech Troubleshooting Tavern
 
 &#x1F916; &#x1F37B; &#x1F469;&#x200D;&#x1F4BB;
+
 GitHub Pages site: <https://marcymarxy.github.io/tech-troubleshooting-tavern/>
+
+help()
 
 ## Table of Contents
 - [Principles](#principles)
