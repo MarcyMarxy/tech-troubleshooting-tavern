@@ -277,6 +277,9 @@ In VS Code, use "Live Server" extension to preview.
 ### Web safe colors
 <https://www.colorhexa.com/web-safe-colors>
 
+### Colorblind-friendly color palettes
+<https://colorany.com/color-palettes/color-blind-friendly-color-palettes/>
+
 ### HTTP response status codes
 <https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status>
 
